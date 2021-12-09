@@ -23,7 +23,7 @@ subclasses.
 create new objects by copying this prototype *(not implemented yet)*
 
 **Singleton**: Ensure a class only has one instance, and provide a global point of
-access to it. *(not implemented yet)*
+access to it.
 
 
 ## Structural Patterns
