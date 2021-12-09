@@ -1,5 +1,4 @@
-﻿using System;
-using FactoryMethod.Account;
+﻿using FactoryMethod.Account;
 
 namespace FactoryMethod.FactoryMethod
 {

@@ -1,6 +1,5 @@
 ﻿using System;
 using FactoryMethod.Account;
-using FactoryMethod.FactoryMethod;
 
 namespace FactoryMethod
 {
@@ -21,7 +20,7 @@ namespace FactoryMethod
         private static string GetClientName()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nClient's First Name: ");
+            Console.WriteLine("\nClient Name: ");
             Console.ForegroundColor = ConsoleColor.Yellow;
             return Console.ReadLine();
         }
@@ -29,7 +28,7 @@ namespace FactoryMethod
         private static decimal GetSalary()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"\nSalary:");
+            Console.WriteLine($"\nnClient Salary:");
             Console.ForegroundColor = ConsoleColor.Yellow;
             decimal.TryParse(Console.ReadLine(), out var salary);
             return salary;

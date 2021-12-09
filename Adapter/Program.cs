@@ -9,13 +9,19 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("We are getting data without Apapter...");
-            new MyApp(new LegacyApi()).Run();
+            Console.WriteLine("[L]egacy or [M]odern?");
+            var type = Console.ReadLine();
 
-            Console.WriteLine("Now we are getting data WITH Apapter...");
-            new MyApp(new Adapter.Adapter(new ModernApi())).Run();
+            if (type == "L")
+            {
+                new MyApp(new LegacyApi()).Run();
+            }
+            else if (type == "M")
+            {
+                Console.WriteLine("Getting data through Apapter...");
+                new MyApp(new Adapter.Adapter(new ModernApi())).Run();
+            }
 
-            Console.ReadLine();
             Main(null);
         }
     }

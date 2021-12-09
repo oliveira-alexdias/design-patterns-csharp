@@ -10,9 +10,9 @@
             MonthlyFee = monthlyFee;
         }
 
-        protected float OverdraftFee { get; set; }
-        protected decimal OverdraftLimit { get; set; }
-        protected decimal MonthlyFee { get; set; }
+        protected float OverdraftFee { get; private set; }
+        protected decimal OverdraftLimit { get; private set; }
+        protected decimal MonthlyFee { get; private set; }
 
         public override string ToString()
         {

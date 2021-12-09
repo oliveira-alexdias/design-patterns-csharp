@@ -1,7 +1,6 @@
 ﻿using System;
 using Adapter.Adaptee;
 using Adapter.Target;
-using Type = Adapter.Adaptee.Type;
 
 namespace Adapter.Adapter
 {
