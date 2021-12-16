@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{21D85F68-BD03-4923-9CFA-136A04B42CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1FB84FFF-4106-4A96-8CC5-6F485B7E6873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{1FB84FFF-4106-4A96-8CC5-6F485B7E6873}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{DB6D955A-44CE-4830-ADB8-E900056AD08F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{1FB84FFF-4106-4A96-8CC5-6F485B7E6873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FB84FFF-4106-4A96-8CC5-6F485B7E6873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FB84FFF-4106-4A96-8CC5-6F485B7E6873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6D955A-44CE-4830-ADB8-E900056AD08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6D955A-44CE-4830-ADB8-E900056AD08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6D955A-44CE-4830-ADB8-E900056AD08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6D955A-44CE-4830-ADB8-E900056AD08F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{77361EDC-ED7B-44E6-9D30-19DB883E5666} = {1FB9C8E1-6CA9-44FA-B484-A21AFCC6A22F}
 		{21D85F68-BD03-4923-9CFA-136A04B42CDF} = {1FB9C8E1-6CA9-44FA-B484-A21AFCC6A22F}
 		{1FB84FFF-4106-4A96-8CC5-6F485B7E6873} = {880755E8-8C62-4157-A60C-22C0479AC66F}
+		{DB6D955A-44CE-4830-ADB8-E900056AD08F} = {96F9484B-26CE-4545-8740-D56FFAE4BA1D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7AD9DD9-DC53-4A78-AAF8-4FA917C4B079}
