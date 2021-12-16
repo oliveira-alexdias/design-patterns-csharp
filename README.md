@@ -38,7 +38,7 @@ independently. *(not implemented yet)*
 uniformly. *(not implemented yet)*
 
 **Decorator**: Attachadditional responsibilities to an object dynamically.Decorators
-provide a flexible alternative to subclassing for extending functionality *(not implemented yet)*
+provide a flexible alternative to subclassing for extending functionality
 
 **Facade**: Provide a unified interface to a set of interfacesin a subsystem. Facade
 defines a higher-level interface that makesthe subsystem easier to use.
